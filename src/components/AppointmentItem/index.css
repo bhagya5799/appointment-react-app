@@ -1,0 +1,31 @@
+/* Write your CSS here */
+li{
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    border: 1px solid gray;
+    padding-left: 1rem;
+     padding: 1rem;
+     gap: 1rem;
+     border-radius: 1rem;
+
+}
+.name{
+    font-weight: bold;
+}
+.date{
+    color: gray;
+    font-size: 0.7rem;
+    
+}
+.title-star-container{
+    display: flex;
+    justify-content: space-between;
+   text-align: center;
+}
+.goldStar{
+    color: yellow;
+}
+.grayStar{
+    color: gray;
+}
